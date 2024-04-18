@@ -24,7 +24,7 @@ sudo hostnamectl set-hostname "kmaster-node"
 exec bash
 
 sudo vi /etc/hosts
-172.31.39.107 kmaster-node
+172.31.21.106 kmaster-node
 
 reboot
 
@@ -36,14 +36,14 @@ sudo hostnamectl set-hostname "worker-node1"
 exec bash
 
 sudo vi /etc/hosts
-172.31.34.22 worker-node1
+172.31.24.23 worker-node1
 #Remember to replace the IPs with those of your systems.
 
 sudo hostnamectl set-hostname "worker-node2"
 exec bash
 
 sudo vi /etc/hosts
-172.31.32.115 worker-node2
+172.31.21.230 worker-node2
 
 reboot
 

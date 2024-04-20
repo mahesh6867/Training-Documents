@@ -24,7 +24,7 @@ sudo hostnamectl set-hostname "kmaster-node"
 exec bash
 
 sudo vi /etc/hosts
-172.31.21.106 kmaster-node
+172.31.16.221 kmaster-node
 
 reboot
 
